@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Clock</string>
+    <string name="world_clock">World Clock</string>
+    <string name="alarm" />
+    <string name="Stopwatch" />
+    <string name="Alarm" />
+    <string name="Timer" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_sand_clock"
+        android:layout_marginTop="16dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/sand_clock_svgrepo_com"/>
+    <TextView
+        android:id="@+id/text_view_timesup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time's up!!"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="normal"
+        android:fontFamily="serif-monospace"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center_horizontal|center" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="End timer"
+        android:background="@drawable/end_time_background"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center_horizontal"/>
+
+
+</LinearLayout>
